@@ -50,7 +50,7 @@ public class DetailsFragment extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_details, container, false);
         mViewModel =new ViewModelProvider(this).get(DetailsViewModel.class);
-        adapter = new DetailsRecyclerView(R.layout.detailsview_layout, countryList);
+       // adapter = new DetailsRecyclerView(R.layout.detailsview_layout, countryList);
 
 
         Bundle bundle = getArguments();
