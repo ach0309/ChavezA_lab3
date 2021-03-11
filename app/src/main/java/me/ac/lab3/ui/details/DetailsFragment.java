@@ -21,7 +21,7 @@ import com.android.volley.toolbox.Volley;
 import java.util.ArrayList;
 
 import me.ac.lab3.R;
-import me.ac.lab3.controller.DetailsRecyclerView;
+// import me.ac.lab3.controller.DetailsRecyclerView;
 import me.ac.lab3.model.Country;
 
 public class DetailsFragment extends Fragment {
