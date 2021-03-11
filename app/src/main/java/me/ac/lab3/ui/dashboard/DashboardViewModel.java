@@ -10,7 +10,7 @@ public class DashboardViewModel extends ViewModel {
 
     public DashboardViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This app shows a list of countries, along with their capitals and regions.\n If you want to learn more about a country, simply tap on the country's row.");
     }
 
     public LiveData<String> getText() {

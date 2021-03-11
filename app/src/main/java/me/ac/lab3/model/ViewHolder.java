@@ -55,10 +55,10 @@ public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickL
         bundle.putString("name", name.getText().toString());
         bundle.putString("capital", capital.getText().toString());
         bundle.putString("region", region.getText().toString());
-        bundle.putString("languages", languages.getText().toString());
-        bundle.putInt("population", population.getInputType());
+//        bundle.putString("languages", languages.getText().toString());
+//        bundle.putInt("population", population.getInputType());
 //        bundle.putString("currencies", currencies.getText().toString());
-        bundle.putString("timezones", timezones.getText().toString());
+//        bundle.putString("timezones", timezones.getText().toString());
 
         Navigation.findNavController(itemView).navigate(R.id.action_navigation_notifications_to_detailsFragment, bundle);
 

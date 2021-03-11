@@ -77,7 +77,6 @@ public class CountriesFragment extends Fragment {
         return root;
 
 
-
     }
 
     private void parseJSON(){

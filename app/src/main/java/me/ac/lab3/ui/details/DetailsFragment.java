@@ -54,29 +54,30 @@ public class DetailsFragment extends Fragment {
 
 
         Bundle bundle = getArguments();
+        int position = bundle.getInt("card", -1);
         final TextView textView_nameCountry = root.findViewById(R.id.textView_countryName);
         final TextView textView_region = root.findViewById(R.id.textView_capitalAns);
         final TextView textView_capital = root.findViewById(R.id.textView_regionAns);
+
+        String nameBundle = bundle.getString("name");
+        String regionBundle = bundle.getString("region");
+        String capitalBundle = bundle.getString("capital");
+
+        textView_nameCountry.setText(nameBundle);
+        textView_region.setText(regionBundle);
+        textView_capital.setText(capitalBundle);
+
 
         final TextView textView_language = root.findViewById(R.id.textView_langAns);
         final TextView textView_population = root.findViewById(R.id.textView_popAns);
         final TextView textView_currency = root.findViewById(R.id.textView_curAns);
         final TextView textView_timezone = root.findViewById(R.id.textView_timeAns);
 
-        int position = bundle.getInt("card", -1);
-        String nameBundle = bundle.getString("name");
-        String regionBundle = bundle.getString("region");
-        String capitalBundle = bundle.getString("capital");
-
         String languageBundle = bundle.getString("language");
         String populationBundle = bundle.getString("population");
         String currencyBundle = bundle.getString("currency");
         String timezoneBundle = bundle.getString("timezone");
 
-
-        textView_nameCountry.setText(nameBundle);
-        textView_region.setText(regionBundle);
-        textView_capital.setText(capitalBundle);
         textView_language.setText(languageBundle);
         textView_population.setText(populationBundle);
         textView_currency.setText(currencyBundle);

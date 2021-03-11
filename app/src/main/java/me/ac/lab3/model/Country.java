@@ -15,9 +15,9 @@ public class Country {
 
     public Country(String countryName, String capitalName, String regionName,
                    String currencies, String languages, String timezones, String population) {
-        this.name = name;
-        this.capital = capital;
-        this.region = region;
+        this.name = countryName;
+        this.capital = capitalName;
+        this.region = regionName;
 
         this.currencies = currencies;
         this.languages = languages;
@@ -27,10 +27,7 @@ public class Country {
 
 
 
-
-
-
-    public String getName(){ return name; }
+ //   public String getName(){ return name; }
 //    public String getCapital(){ return capital; }
 //    public String getRegion(){ return region; }
 

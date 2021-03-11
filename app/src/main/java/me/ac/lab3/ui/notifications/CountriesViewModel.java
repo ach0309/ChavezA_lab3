@@ -13,7 +13,8 @@ import me.ac.lab3.model.Country;
 public class CountriesViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
-    private MutableLiveData<ArrayList<Country>> countryList;
+    private ArrayList<Country> countryList;
+
     public CountriesViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is countries fragment");
@@ -24,11 +25,12 @@ public class CountriesViewModel extends ViewModel {
     }
 
 
-    public MutableLiveData<ArrayList<Country>> getCountryList() {
-        return countryList;
-    }
+//    public MutableLiveData<ArrayList<Country>> getCountryList() {
+//        return countryList;
+//    }
 
-    public void addCountryList(ArrayList<Country> myCountryList){
-        countryList.postValue(myCountryList);
-    }
+//    public void addCountryList(ArrayList<Country> myCountryList){
+//        countryList.postValue(myCountryList);
+//    }
+//}
 }

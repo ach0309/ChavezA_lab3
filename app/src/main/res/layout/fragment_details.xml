@@ -8,148 +8,149 @@
 
         <TextView
             android:id="@+id/textView_countryName"
-            android:layout_width="wrap_content"
+            android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:text="Country Name"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView_popAns"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="172dp"
-            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_curAns"
-            app:layout_constraintVertical_bias="0.105" />
-
-        <TextView
-            android:id="@+id/textView_population"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="36dp"
-            android:text="Population"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/textView_popAns"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_currency"
-            app:layout_constraintVertical_bias="0.105" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.062" />
 
         <TextView
             android:id="@+id/textView_capitalAns"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="96dp"
-            android:layout_marginEnd="176dp"
+
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="144dp"
             android:text="TextView"
+            android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView_countryName" />
-
-        <TextView
-            android:id="@+id/textView_capitalDetails"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="96dp"
-            android:layout_marginEnd="56dp"
-            android:text="Capital"
-            app:layout_constraintEnd_toStartOf="@+id/textView_capitalAns"
-            app:layout_constraintHorizontal_bias="0.769"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_countryName" />
-
-        <TextView
-            android:id="@+id/textView_regionDetails"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="56dp"
-            android:text="Region"
-            app:layout_constraintEnd_toStartOf="@+id/textView_regionAns"
-            app:layout_constraintHorizontal_bias="0.822"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_capitalDetails" />
-
-        <TextView
-            android:id="@+id/textView_regionAns"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
-            android:layout_marginEnd="176dp"
-            android:text="TextView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_capitalAns" />
-
-        <TextView
-            android:id="@+id/textView_language"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="44dp"
-            android:text="Languages"
-            app:layout_constraintEnd_toStartOf="@+id/textView_langAns"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_regionDetails" />
-
-        <TextView
-            android:id="@+id/textView_langAns"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:layout_marginEnd="172dp"
-            android:text="TextView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_regionAns" />
-
-        <TextView
-            android:id="@+id/textView_currency"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="48dp"
-            android:text="Currency"
-            app:layout_constraintEnd_toStartOf="@+id/textView_curAns"
-            app:layout_constraintHorizontal_bias="0.128"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_time" />
-
-        <TextView
-            android:id="@+id/textView_curAns"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:layout_marginEnd="176dp"
-            android:text="TextView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_timeAns" />
 
         <TextView
             android:id="@+id/textView_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="28dp"
             android:text="Time Zone"
             app:layout_constraintEnd_toStartOf="@+id/textView_timeAns"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_currency" />
+
+        <TextView
+            android:id="@+id/textView_population"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Population"
+            app:layout_constraintEnd_toStartOf="@+id/textView_popAns"
+            app:layout_constraintHorizontal_bias="0.367"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView_language" />
+
+        <TextView
+            android:id="@+id/textView_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Currency"
+            app:layout_constraintEnd_toStartOf="@+id/textView_curAns"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_population" />
+
+        <TextView
+            android:id="@+id/textView_regionDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Region"
+            app:layout_constraintEnd_toStartOf="@+id/textView_regionAns"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_capitalDetails" />
+
+        <TextView
+            android:id="@+id/textView_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Languages"
+            app:layout_constraintEnd_toStartOf="@+id/textView_langAns"
+            app:layout_constraintHorizontal_bias="0.372"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_regionDetails" />
 
         <TextView
             android:id="@+id/textView_timeAns"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="172dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="140dp"
             android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_curAns" />
+
+        <TextView
+            android:id="@+id/textView_curAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="140dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_popAns" />
+
+        <TextView
+            android:id="@+id/textView_capitalDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="Capital"
+            app:layout_constraintEnd_toStartOf="@+id/textView_capitalAns"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_countryName" />
+
+        <TextView
+            android:id="@+id/textView_langAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="140dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_regionAns" />
+
+        <TextView
+            android:id="@+id/textView_regionAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="144dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_capitalAns" />
+
+        <TextView
+            android:id="@+id/textView_popAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="140dp"
+            android:text="TextView"
+            android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView_langAns" />
 
